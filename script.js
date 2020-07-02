@@ -1,4 +1,5 @@
 // Current Day and Time
+$( document ).ready(function() {
 var date = moment().format("MMM Do YY");
 
 $("#currentDay").append(date);
@@ -32,34 +33,19 @@ function updatetime() {
   }
   updatetime();
 
-let input = [];
-const addInput = () => {
-    preventDefault();
-    let input = {
-        content: document.getElementsByClassName("form-control").value
-    }
+ 
+ var savData = document.querySelectorAll(".btn").length;
+
+ console.log(savData);
+
+ for (var i =0; i < savData; i++){
+   document.querySelectorAll(".btn")[i].addEventListener("click", function() {
+    event.preventDefault()
+    var input = document.querySelectorAll(valueOf(".time"));
+    localStorage.setItem("time", input);
+
+
+  })
 }
 
-  document.getElementById("btn").addEventListener("click", function(){
-    var input = $("input");
-  });
-
-//   $("#bttn").on("click", function() {
-//       var timeslot = $(this).attr("id");
-//       var content = $("input").val().trim();
-
-//       localStorage.setItem(timeslot,content);
-//       console.log(timeslot,content);
-//     }
-//     )
-//     document.getElementById('email').setAttribute('value', localStorage.getItem('email'));
-
-//     $("#9am")("input").val(localStorage.getItem("9am"));
-//     $("#10am")("input").val(localStorage.getItem("10am"));
-//     $("#11am")("input").val(localStorage.getItem("11am"));
-//     $("#12pm")("input").val(localStorage.getItem("12pm"));
-//     $("#1pm")("input").val(localStorage.getItem("1pm"));
-//     $("#2pm")("input").val(localStorage.getItem("2pm"));
-//     $("#3pm")("input").val(localStorage.getItem("3pm"));
-//     $("#4pm")("input").val(localStorage.getItem("4pm"));
-//     $("#5pm")("input").val(localStorage.getItem("5pm"));
+});
