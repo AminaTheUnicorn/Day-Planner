@@ -29,3 +29,12 @@ function updatetime() {
       }
     }
   }
+
+  $("#bttn").on("click", function() {
+      var timeslot = $(this).attr("id");
+      var content = $("input").val().trim();
+
+      localStorage.setItem(timeslot,content);
+      console.log(timeslot,content);
+    }
+    )
