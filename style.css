@@ -1,18 +1,28 @@
+
 .header{
     text-align: center;
    
 }
-.row{
-    margin-bottom: 3%;
+
+.input-group{
+    border: none;
 }
-.container-fluid{
-    padding: 3% 18%;
+
+.inputBod{
+    border: none;
+}
+.input-group-prepend{
+    border: none;
+}
+
+.input-group-text{
+    background-color: #007bff;
+    color: white;
+    border: none;
 }
 
 .jumbotron{
-    
-    background-color: #f1f8ff;
-    border-color: #c8e1ff;
+padding: none;
 
 }
 
