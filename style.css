@@ -1,5 +1,6 @@
 .header{
     text-align: center;
+   
 }
 .row{
     margin-bottom: 3%;
@@ -8,3 +9,9 @@
     padding: 3% 3%;
 }
 
+.jumbotron{
+    
+    background-color: #f1f8ff;
+    border-color: #c8e1ff;
+
+}
