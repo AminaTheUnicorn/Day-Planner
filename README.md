@@ -11,5 +11,5 @@ Plan out your daily task and to be sure to stay on track. With dynamically chani
 
 The following animation demonstrates the application functionality:
 
-![day planner demo](./Assets/05-third-party-apis-homework-demo.gif)
+![day planner demo](./Assets/personal-planner.gif)
 
