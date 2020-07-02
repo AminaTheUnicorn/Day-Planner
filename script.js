@@ -1,6 +1,6 @@
 // Current Day and Time
 $( document ).ready(function() {
-var date = moment().format("MMM Do YY");
+var date = moment().format("");
 
 $("#currentDay").append(date);
 
