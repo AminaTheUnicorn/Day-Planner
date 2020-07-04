@@ -33,15 +33,7 @@ $(document).ready(function () {
   }
   updatetime();
 
-  //   function getInputValue(){
-  //     // Selecting the input element and get its value 
-  //     var inputVal = document.getElementsByClassName("time").value;
-
-  //     // Displaying the value
-  //     console.log(inputVal);
-  // }
-
-  // getInputValue();
+ 
 
 
   $(".btn").on("click", function () {
@@ -61,20 +53,17 @@ $(document).ready(function () {
   
 $("#9").val(localStorage.getItem("9 A.M."));
 $("#10").val(localStorage.getItem("10 A.M."));
+$("#11").val(localStorage.getItem("10 A.M."));
+$("#12").val(localStorage.getItem("10 A.M."));
+$("#13").val(localStorage.getItem("10 A.M."));
+$("#14").val(localStorage.getItem("10 A.M."));
+$("#15").val(localStorage.getItem("10 A.M."));
+$("#16").val(localStorage.getItem("10 A.M."));
+$("#17").val(localStorage.getItem("10 A.M."));
 
 
-  //  var savData = document.querySelectorAll(value(".btn")).length;
-
-  //  console.log(savData);
-
-  //  for (var i =0; i < savData; i++){
-  //    document.querySelectorAll(".btn")[i].addEventListener("click", function() {
-  //     event.preventDefault()
-  //     var input = document.querySelectorAll(valueOf(".time"));
-  //     localStorage.setItem("time", input);
 
 
-  //   })
-  // }
+
 
 });
